@@ -8,7 +8,7 @@ formulario.addEventListener('submit', e => {
 
     const alertaPrevia = document.querySelector('.alerta')
     if(alertaPrevia) {
-        alertaprevia.remove()
+        alertaPrevia.remove()
     }
 
     const alerta = document.createElement('DIV')
